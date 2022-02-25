@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8184c22757.js" crossorigin="anonymous"></script>
+
+    <title>Formulário</title>
+</head>
+<body>
+    <h1 class="txtt"> Resilia</h1>
+   
+    <div id="form">
+        <form action="">
+            <h2 class="title">Cadastro Aluno
+
+            </h2>
+            <label for="username">Nome</label>
+        </form>
+    <div class="input">
+        <i class="fa-solid fa-circle-user"></i>
+        <input id="username" name="username" placeholder="Nome" type="text">
+    </div>
+    
+    <label for="nascimento">Data</label>
+    <div class="input">
+        <i class="fa-solid fa-calendar-days"></i>
+        <input id="Data" name="Data" placeholder="Data" type="date">
+    </div>
+    
+    <label for="CPF">CPF</label>
+    <div class="input">
+        <i class="fa-solid fa-address-card"></i>
+        <input id="CPF" name="CPF" placeholder="cpf" type="password">
+        <pattern="\d{3}.\d{3}.\d{3}-\d{2}" \>
+    </div>
+
+    <div id="btn">
+        <button type="submit">cadastrar</button>
+    </div>
+</body>
+</html>
